@@ -17,7 +17,7 @@ By Sander Beekhuis
 
 ---
 # `stash`
-- `git stash` allows you to store non-commited changes
+- `git stash` allows you to store non-committed changes
 
 ---
 
