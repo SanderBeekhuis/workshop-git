@@ -38,7 +38,7 @@ Actually:
 
 # History alteration
 
-![image of stage after rebase]
+![image of stage after rebase](./imgs/after-rebase.jpg)
 
 Your local changes can not be pushed in the normal way since they differ from the remote. They can even possibly miss meaningful changes. 
 
