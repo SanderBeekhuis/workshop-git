@@ -3,7 +3,7 @@ marp: true
 ---
 
 # Git Gud!
-## 1: Merge and Rebase
+## Merge and Rebase
 
 By Sander Beekhuis
 
@@ -11,8 +11,6 @@ By Sander Beekhuis
 # Merge
 
 ![w:800](./imgs/merge.jpg)
-
-<!-- Waarschijnlijk iedereen wel bekend, voegt twee branches samen in een merge commit -->
 
 - `merge --no-commit`
 - `merge --abort`
@@ -28,27 +26,21 @@ Actually:
 - Makes new commits based on the old ones
 - Asks you to intervene when automatic resolution is not possible
 
-
-<!-- Some image might be nice -->
-
-
 ---
 
 # Interactive Rebase
 
-`git rebase -i`
+`git rebase -i` - Clean up your commit's while rebasing.
 
-Clean up your commit's while rebasing
-
-[image of interactive rebase prompt]
+![w:1000](./imgs/interactive-rebase.jpg)
 
 ---
 
 # History alteration
 
-[image of stagte after rebase]
+![image of stage after rebase]
 
-Your local changes can not be pushed since they miss remote changes.  Including possibly meaningfull ones.
+Your local changes can not be pushed in the normal way since they differ from the remote. They can even possibly miss meaningful changes. 
 
 - `push --force` to the rescue
 - `push --force-with-lease`
@@ -62,7 +54,7 @@ Git merge logic:
 - Find "merge base" commit
 - Create diffs for both branches
 - Play both diffs
-- Ask user when both diffs edit the same chunk differntly
+- Ask user when both diffs edit the same chunk differently
 
 
 ---
