@@ -107,6 +107,8 @@ we get a merge conflict.
 
 
 ## Bonus Exercise 1: Alternative scenarios
+Reset the `feature/logging` and `main` branches to their respective tags. 
+
 Play around with some other scenarios, for example. 
 - Do not use the `no-ff` flag and allow for fast-forward in merging. When will git fast-forward? 
 - Change around the order of the merges around. Does this make any difference? 
