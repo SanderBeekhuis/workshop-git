@@ -18,7 +18,7 @@ By Sander Beekhuis
 4. Always, as long as you improve the history of the repository
 
 ---
-# How do you handle it when your feature has merge commits with the main branch.
+# How do you handle it when your feature has merge conflicts with the main branch.
 1. I rebase my feature
 2. I merge `main` into my feature
 

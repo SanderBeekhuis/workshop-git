@@ -21,7 +21,7 @@ Suppose we now want to add two features.
 2. Add some logging code in this function
 
 
-### Feature 1: Any amount of argumetns
+### Feature 1: Any amount of arguments
 
 1.  Create a branch `feature/many-arguments`
 2.  Change the code to 
@@ -114,14 +114,14 @@ we get a merge conflict.
 10. Also test the resulting code using `python main.py`
 
 
-## Bonus Exercise 1: Alternative scenarios
+# Bonus Exercise 1: Alternative scenarios
 Reset the `feature/logging` and `main` branches to their respective tags. 
 
 Play around with some other scenarios, for example. 
 - Do not use the `no-ff` flag and allow for fast-forward in merging. When will git fast-forward? 
 - Change around the order of the merges around. Does this make any difference? 
 
-## Bonus Exercise 2: Interactive rebase.  
+# Bonus Exercise 2: Interactive rebase.  
 
 Make a "messy" branch yourself. For example including: 
 - A commit that only fixes a typo. 
