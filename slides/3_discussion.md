@@ -33,6 +33,13 @@ By Sander Beekhuis
 |3. | `git rebase main && git merge --fast-forward`  | Rebase and fast-forward  |  Rebase and merge |   
 |4. | `git rebase main && git merge`| Semi-linear merge | N/A | 
 
+---
+
+# Do you look at commit history when reviewing code?
+
+1. Yes, and I ask my colleagues to rebase when it doesn't make sense.
+2. Yes, but if it is not that great I just ignore it.
+3. No, not really 
 
 --- 
 # The end
