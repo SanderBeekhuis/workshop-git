@@ -2,8 +2,8 @@
 # Creating a merge conflict
 
 ## Initial state
-1. Set up a new repo `git init`
-2. Make a file `main.py` and add a few lines:
+1. Set up a new repo with `git init`
+2. Make a file `main.py` and add a the lines below to it
 
 ```python
 def add(a, b):
@@ -17,8 +17,11 @@ if __name__ == "__main__":
 
 ## Setup features
 Suppose we now want to add two features. 
-- Support any amount of arguments
-- Only support numerics, raise ValueError otherwise
+1. Support any amount of arguments
+2. Add some logging code in this function
+
+
+### Feature 1: Any amount of argumetns
 
 1.  Create a branch `feature/many-arguments`
 2.  Change the code to 
@@ -36,6 +39,8 @@ if __name__ == "__main__":
 
 ```
 3. Commit this change
+
+### Feature 2: Add logging
 4. Go back to the `main` branch
 5. Create a branch `feature/logging`
 6. Change the code to
@@ -54,6 +59,8 @@ if __name__ == "__main__":
 
 ```
 7. Make a commit
+
+### Going back to the main branch
 8. Switch back to main
 9. Mark the current state of the main branch with a tag `git tag main-before-merge`
 10. Inspect the current state of you branches using `git log --oneline --graph --all`
@@ -67,27 +74,28 @@ It should look like this:
 * 28a42e2 (HEAD -> main, tag: main-before-merge) Basic add method
 ```
 
-## Merge first feature
+
+## Resolve merge conflicts using merges
+Now we have completed the setup we can start merging. 
+
+### Merge first feature
 1. Now we merge the first branch with `git merge --no-ff feature/many-arguments`.  No problems so far. 
 
 2. It is nice to inspect the current state of the branches again with `git log --oneline --graph --all`
 
 
-##  Merge second feature: Merge conflict
+###  Merge second feature: Merge conflict
 3. But now if we try to merge the second feature using `git merge --no-ff feature/logging`
 we get a merge conflict.  
 
 4. Our edits to the method body are conflicting and git does not know how to resolve this by itself. 
 
-## Resolve using merge conflict resolution
+### Resolve using merge conflict resolution
 
 6. To resolve this merge conflict change the code in the editor (think a little about how you want to combine these two features)
-
 7. Test the resulting code using `python main.py`. Is the output like you expect? 
-
-7. Then add the file it using `git add` and finally commit using `git commit`.
-
-8. Have another look at the commit graph using `git log --graph --oneline --all`.
+8. Then add the file it using `git add` and finally commit using `git commit`.
+9. Have another look at the commit graph using `git log --graph --oneline --all`.
 
 ## Resolve using rebase
 

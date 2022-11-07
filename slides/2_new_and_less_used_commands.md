@@ -36,9 +36,9 @@ By Sander Beekhuis
 <!-- But starting your branch at the right spot may be better -->
 ---
 
-# closing notes
+# Closing notes
 
-- git status on command line
+- git status on the command line
 - aliases 
 
 

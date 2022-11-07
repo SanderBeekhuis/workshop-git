@@ -11,10 +11,10 @@ Create a git history like below where every commit changes the SAME file. (e.g R
 * init commit
 ```
 
-1. Switch you branch to `feature`, for example to review it.
-2. Go grab a coffee and completly forget what you were doing. 
+1. Switch your active branch to `feature`, for example to review it.
+2. Go grab a coffee and completely forget what you were doing. 
 3. Start coding and make some changes to that SAME file.
-4. Realize you are on the wrong branch. 
+4. Realize you are accidentally on the wrong branch. 
 5. When you try to `git switch main`  you get an error message.
 6. Stash your changes using `git stash`
 7. Switch branches to `main` and create a new `my-feature` branch. 
@@ -46,11 +46,9 @@ With `git reflog` you can find back commits that have no branch pointing to them
 6. Look at the resulting git history.  Can you see that a rebase does not actually move anything, but just recreates commits. 
 
 
-
-
 # Bonus Exercise: Cherry pick
 
-Set up a git history with a main branch and a released version branch. Like pseudo git log below.
+Set up a git history with a main branch and a released version branch. Like the pseudo git log below.
 ```
 * (main) latest work
 * some recent work
