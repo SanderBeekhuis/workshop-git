@@ -5,13 +5,14 @@
 
 ## Slides
 - Build slides using Marp VSCode plugin
-- Built result might be included in the repo
+- Build result is included in the repo
 - I present them using foxit reader in full screen mode
 
 
-# Links
+## .gitconfig
+Bonus content: Example git config file
+
+## Extra reading
 - https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch
 - https://www.biteinteractive.com/understanding-git-merge/
 
-
-# Credits
