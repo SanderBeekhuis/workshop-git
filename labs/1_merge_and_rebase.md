@@ -112,7 +112,7 @@ we get a merge conflict.
 4. Let's first merge `feature/many-arguments` into `main` again with `git merge --no-ff feature/many-arguments`
 5. Switch to `feature/logging` and tag with `git tag logging-before-rebase`
 6. Then this time let's `git rebase main`, resolve the conflicts in this process, and use `git rebase --continue` to finish the process. 
-7. Have another look at the commit graph. Especially note the location of the `logging-before-rebase` tag.
+7. Have another look at the commit graph. Especially note the location of the `logging-before-rebase` tag. This way you can see that `rebase` creates new commits, but by default they are not shown since no "branch pointers" exist anymore.
 8. Switch to `main` and complete the merge with `git merge --no-ff feature/logging`
 9. And have a look at the resulting commit graph. Can you see the resulting history is different than in the first case? 
 10. Also test the resulting code using `python main.py`
