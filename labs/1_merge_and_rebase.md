@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
 ```
 
-3. Commit all changes to a commit on the default branch. 
+3. `git add` and `git commit` all changes to a commit on the default branch. 
 
 ## Setup features
 Suppose we now want to add two features. 
