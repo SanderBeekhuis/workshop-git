@@ -40,6 +40,14 @@ By Sander Beekhuis
 
 - git status on the command line
 - aliases 
+- IDE use git under the hood
+- Good commits and commit messages
+    - commit -- "one and exactly one **working** change"
+- Tools for resolving merge conflicts
+    - Plain text
+    - VS code, Jetbrains
+    - Git kraken, Sublime merge
+
 
 
 

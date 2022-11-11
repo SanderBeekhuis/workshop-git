@@ -60,5 +60,8 @@ Git merge logic:
 ---
 
 # Time for a lab
+- Will all be CLI git
+- Change your git editor if you don't like vim
+`git config core.editor notepad`
 
 
