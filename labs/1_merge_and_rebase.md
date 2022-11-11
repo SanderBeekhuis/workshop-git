@@ -1,6 +1,8 @@
 
 # Creating a merge conflict
 
+Note: We will be working on a new empty repo. You don't need to clone this repo. 
+
 ## Initial state
 1. Set up a new repo with `git init`
 2. Make a file `main.py` and add a the lines below to it
@@ -15,7 +17,7 @@ if __name__ == "__main__":
 
 ```
 
-3. Commit all changes to a commit. 
+3. Commit all changes to a commit on the default branch. 
 
 ## Setup features
 Suppose we now want to add two features. 
