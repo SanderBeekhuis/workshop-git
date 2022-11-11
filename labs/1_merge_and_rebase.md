@@ -15,6 +15,8 @@ if __name__ == "__main__":
 
 ```
 
+3. Commit all changes to a commit. 
+
 ## Setup features
 Suppose we now want to add two features. 
 1. Support any amount of arguments
