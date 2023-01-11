@@ -10,7 +10,7 @@
 
 
 ## .gitconfig
-Bonus content: Example git config file
+Bonus content: [Example git config file](https://github.com/SanderBeekhuis/dotfiles/blob/main/.gitconfig)
 
 ## Extra reading
 
