@@ -6,7 +6,7 @@
 ## Slides
 - Build slides using Marp VSCode plugin
 - Build result is included in the repo
-- I present them using foxit reader in full screen mode
+- I present them using Foxit reader in full screen mode
 
 
 ## .gitconfig
@@ -14,7 +14,7 @@ Bonus content: [Example git config file](https://github.com/SanderBeekhuis/dotfi
 
 ## Extra reading
 
-## Cli setup
+### Cli setup
 - Windows or crossplaform: https://ohmyposh.dev
     - Contains very beginner freindly docs
 - Linux  https://ohmyz.sh/
@@ -29,4 +29,8 @@ Bonus content: [Example git config file](https://github.com/SanderBeekhuis/dotfi
 - [Commit messages](https://chris.beams.io/posts/git-commit/)
 - [Commit message, extreem voorbeeld](https://dhwthompson.com/2019/my-favourite-git-commit)
 
+
+### Misc
+- [Oh shit git](https://ohshitgit.com/)
+- [ Oh shit git HackerNews Discussion ](https://news.ycombinator.com/item?id=31874308)
 
